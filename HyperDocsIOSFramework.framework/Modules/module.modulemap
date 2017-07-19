@@ -1,0 +1,10 @@
+framework module HyperDocsIOSFramework {
+  umbrella header "HyperDocsIOSFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module HyperDocsIOSFramework.Swift {
+    header "HyperDocsIOSFramework-Swift.h"
+}
