@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "FrameTest"
-  s.version      = “V01”
+  s.version      = "0.0.1"
   s.summary      = "A frame to test FrameTest."
 
   # This description is used to generate tags and improve search results.
@@ -77,7 +77,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/psbarik13/FrameWorkTest01.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/psbarik13/FrameWorkTest01.git", :tag => s.version.to_s }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -88,10 +88,10 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "FrameWorkTest01/HyperDocsIOSFramework/**/*.{framework}"
+  s.source_files  = "FrameWorkTest01/Classes/**/*"
   s.exclude_files = "Classes/Exclude"
 
-  # s.public_header_files = "Classes/**/*.h"
+  # s.public_header_files = "Pod/Classes/**/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
